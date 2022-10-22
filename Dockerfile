@@ -21,6 +21,7 @@ ENV GID=991 \
     FLARUM_PORT=8888
 
 RUN apk add --no-progress --no-cache \
+    bash \
     curl \
     git \
     icu-data-full \
